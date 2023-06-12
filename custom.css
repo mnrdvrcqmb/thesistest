@@ -1,0 +1,39 @@
+html{
+    background: url(background.jpg); no-repeat center center fixed;
+    background-size: cover;
+}
+
+body{
+    background-color: inherit;
+    overflow: hidden;
+}
+
+nav
+{
+    background: #222;
+    padding: 5px 20px;
+    display: flex;
+}
+header
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+.full-width{
+    min-height: 100vh;
+}
+
+form{
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0,0, 0, .2);
+}
+
+@media (max-width: 575.98px){
+    form{
+        width: 100%;
+    }
+}
